@@ -22,7 +22,7 @@ const Header = () => {
             <div className="w-8 h-8 md:w-10 md:h-10 rounded-xl bg-primary flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg md:text-xl">S</span>
             </div>
-            <span className="font-bold text-lg md:text-xl text-foreground">SmartCity</span>
+            <span className="font-bold text-lg md:text-xl text-foreground">citi.app</span>
           </a>
 
           {/* Desktop Navigation */}

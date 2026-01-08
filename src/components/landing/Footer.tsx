@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 const Footer = () => {
@@ -15,7 +14,7 @@ const Footer = () => {
               <div className="w-8 h-8 rounded-xl bg-primary flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-lg">S</span>
               </div>
-              <span className="font-bold text-xl text-background">SmartCity</span>
+              <span className="font-bold text-xl text-background">citi.app</span>
             </div>
             <p className="text-background/60 text-sm max-w-xs">
               {t('footer.description')}
@@ -24,18 +23,18 @@ const Footer = () => {
 
           {/* Links */}
           <div className="flex flex-col sm:flex-row items-center gap-6">
-            <Link
-              to={language === 'uk' ? '/privacy-ua' : '/privacy-en'}
+            <a
+              href="/privacy.html"
               className="text-sm text-background/60 hover:text-background transition-colors"
             >
               {t('footer.privacy')}
-            </Link>
-            <Link
-              to={language === 'uk' ? '/terms-ua' : '/terms-en'}
+            </a>
+            <a
+              href="/tos.html"
               className="text-sm text-background/60 hover:text-background transition-colors"
             >
               {t('footer.terms')}
-            </Link>
+            </a>
           </div>
 
           {/* Language switcher */}
@@ -68,7 +67,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-background/10 text-center">
           <p className="text-sm text-background/40">
-            © {currentYear} SmartCity. {t('footer.rights')}
+            © {currentYear} citi.app. {t('footer.rights')}
           </p>
         </div>
       </div>

@@ -30,14 +30,14 @@ const TermsOfUseEN = () => {
           <section className="mb-8">
             <h2 className="text-xl font-semibold mb-4">1. Acceptance of Terms</h2>
             <p className="text-muted-foreground mb-4">
-              By using the SmartCity mobile application ("App"), you agree to comply with these Terms of Use. If you do not agree with these terms, please do not use the App.
+              By using the citi.app mobile application ("App"), you agree to comply with these Terms of Use. If you do not agree with these terms, please do not use the App.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-xl font-semibold mb-4">2. Description of Service</h2>
             <p className="text-muted-foreground mb-4">
-              SmartCity is a mobile application that provides access to city services, including but not limited to:
+              citi.app is a mobile application that provides access to city services, including but not limited to:
             </p>
             <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
               <li>Public transport and parking information</li>
@@ -64,7 +64,7 @@ const TermsOfUseEN = () => {
           <section className="mb-8">
             <h2 className="text-xl font-semibold mb-4">4. Intellectual Property</h2>
             <p className="text-muted-foreground mb-4">
-              All rights to the App, including design, code, logos, and content, belong to SmartCity or its licensors. You may not copy, modify, or distribute any part of the App without our written permission.
+              All rights to the App, including design, code, logos, and content, belong to citi.app or its licensors. You may not copy, modify, or distribute any part of the App without our written permission.
             </p>
           </section>
 
@@ -114,7 +114,7 @@ const TermsOfUseEN = () => {
               If you have questions about these Terms of Use, please contact us:
             </p>
             <p className="text-primary font-medium">
-              contact@smartcity.app
+              contact@citi.top
             </p>
           </section>
         </div>
