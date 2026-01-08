@@ -30,7 +30,7 @@ const PrivacyPolicyEN = () => {
           <section className="mb-8">
             <h2 className="text-xl font-semibold mb-4">1. Introduction</h2>
             <p className="text-muted-foreground mb-4">
-              SmartCity ("we", "our", or "the app") respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, and protect your information when using our mobile application.
+              citi.app ("we", "our", or "the app") respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, and protect your information when using our mobile application.
             </p>
           </section>
 
@@ -107,7 +107,7 @@ const PrivacyPolicyEN = () => {
               If you have questions about this Privacy Policy or your personal data, please contact us:
             </p>
             <p className="text-primary font-medium">
-              contact@smartcity.app
+              contact@citi.top
             </p>
           </section>
         </div>

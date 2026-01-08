@@ -23,7 +23,7 @@ const translations: Record<Language, Record<string, string>> = {
     'hero.comingSoon': 'Скоро на iOS та Android',
     
     // Benefits
-    'benefits.title': 'Чому обирають SmartCity',
+    'benefits.title': 'Чому обирають citi.app',
     'benefits.convenience.title': 'Зручність',
     'benefits.convenience.desc': 'Всі сервіси вашого міста зібрані в одному місці. Більше не потрібно шукати різні застосунки.',
     'benefits.speed.title': 'Швидкість',
@@ -62,7 +62,7 @@ const translations: Record<Language, Record<string, string>> = {
     // How it works
     'howItWorks.title': 'Як це працює',
     'howItWorks.step1.title': 'Завантажте застосунок',
-    'howItWorks.step1.desc': 'Встановіть SmartCity з App Store або Google Play на ваш смартфон.',
+    'howItWorks.step1.desc': 'Встановіть citi.app з App Store або Google Play на ваш смартфон.',
     'howItWorks.step2.title': 'Оберіть своє місто',
     'howItWorks.step2.desc': 'Виберіть своє місто зі списку підключених міст та налаштуйте потрібні сервіси.',
     'howItWorks.step3.title': 'Користуйтеся сервісами',
@@ -108,7 +108,7 @@ const translations: Record<Language, Record<string, string>> = {
     'hero.comingSoon': 'Coming soon on iOS & Android',
     
     // Benefits
-    'benefits.title': 'Why choose SmartCity',
+    'benefits.title': 'Why choose citi.app',
     'benefits.convenience.title': 'Convenience',
     'benefits.convenience.desc': 'All your city services gathered in one place. No more searching for different apps.',
     'benefits.speed.title': 'Speed',
@@ -147,7 +147,7 @@ const translations: Record<Language, Record<string, string>> = {
     // How it works
     'howItWorks.title': 'How It Works',
     'howItWorks.step1.title': 'Download the app',
-    'howItWorks.step1.desc': 'Install SmartCity from App Store or Google Play on your smartphone.',
+    'howItWorks.step1.desc': 'Install citi.app from App Store or Google Play on your smartphone.',
     'howItWorks.step2.title': 'Choose your city',
     'howItWorks.step2.desc': 'Select your city from the list of connected cities and configure the services you need.',
     'howItWorks.step3.title': 'Use the services',
@@ -187,7 +187,7 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
   const [language, setLanguage] = useState<Language>('uk');
 
   useEffect(() => {
-    const savedLang = localStorage.getItem('smartcity-lang') as Language;
+    const savedLang = localStorage.getItem('citi-app-lang') as Language;
     if (savedLang && (savedLang === 'uk' || savedLang === 'en')) {
       setLanguage(savedLang);
     }
@@ -195,7 +195,7 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
 
   const handleSetLanguage = (lang: Language) => {
     setLanguage(lang);
-    localStorage.setItem('smartcity-lang', lang);
+    localStorage.setItem('citi-app-lang', lang);
   };
 
   const t = (key: string): string => {
